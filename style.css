@@ -1,8 +1,11 @@
 /* General formatting */
-p {
-    font-family:Arial, Helvetica, sans-serif;
-    display: inline;
+body {
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
+}
+
+p {
+    display: inline;
     margin-block: 0;
 }
 
@@ -57,12 +60,33 @@ p.hero-subtext{
     font-weight: bold;
 }
 
-/* Section 1 formatting */
+/* Section 1*/
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
 }
 
+/* Section 3 */
+#section3 {
+    background-color: #e5e7eb;
+    padding: 80px 20vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quoted {
+    font-weight: bold;
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-right: 20px; 
+}
 /* Section 4 */
 #section4 {
     padding-top: 80px;
