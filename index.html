@@ -12,9 +12,9 @@
                     <p class="header-logo">Header Logo</p>
                 </div>
                 <div id="header-right" class="standard">
-                    <p class="header-link">header link one</p>
-                    <p class="header-link">header link two</p>
-                    <p class="header-link">header link three</p>
+                    <p id="header-link">header link one</p>
+                    <p id="header-link">header link two</p>
+                    <p id="header-link">header link three</p>
                 </div>
             </div>
             <div id="section1" class="main-container dark-bg standard">
@@ -22,12 +22,12 @@
                 <div id="s1-container" class="standard">
                     <div class="flipped">
                         <p class="hero-main-text">This website is awesome</p>
-                        <p class="">This website has some subtext that goes here under the 
+                        <p class="hero-subtext">This website has some subtext that goes here under the 
                             main title. It's a smaller font and the color is lower contrast.
                         </p>
-                        <div class="signup-button1"></div>
+                        <a class="signup-button1">Sign Up</a>
                     </div>
-                    <div class="s1-image"></div>
+                    <div class="s1-image" height="30vw" width="30vw"></div>
                 </div>
             </div>
             <div id="section2" class="main-container">
@@ -54,18 +54,19 @@
                     </div>
                 </div>
             </div>
-            <div id="section3" class="main-container grey-bg">
+            <div id="section3" class="main-container">
                 <!--Inspiring quote-->
-                <p class="quote">This is an inspiring quote, or a testimonial from a customer.
-                    Maybe it's just filling up stapce, or maybe people will actually read it. Who knows?
-                    All I know is that it looks nice.
-                </p>
-                <p class="quoted">-Thor God of Thunder</p>
+                <div class="quote">
+                    <p>This is an inspiring quote, or a testimonial from a customer.
+                    Maybe it's just filling up space, or maybe people will actually read it. Who knows?
+                    All I know is that it looks nice.</p>
+                </div>
+                <div class="quoted"><p>-Thor God of Thunder</p></div>
             </div>
             <div id="section4" class="main-container">
                 <!--Major CTA with signup button-->
-                <div id="cta-container">
-                    <div class="cta-text flipped-container">
+                <div id="cta-container" class="dark-bg standard">
+                    <div class="cta-text flipped">
                         <p class="cta-text-bold">Call to action! It's time!</p>
                         <p class="cta-text-body">Sign up for our product by clicking that button right over there!</p>
                     </div>
@@ -75,7 +76,7 @@
                 </div>
             </div>
             <footer class="main container dark-bg standard">
-                <p>Copyright <span>&#169</span> The Odin Project</p>
+                <p class="footer-text">Copyright <span>&#169</span> The Odin Project</p>
             </footer>
         </div>
     </body>
