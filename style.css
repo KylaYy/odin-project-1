@@ -66,6 +66,42 @@ p.hero-subtext{
     font-weight: bolder;
 }
 
+/* Section 2 */
+#section2 {
+    padding: 50px 20vw 50px 20vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.s2-header {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    
+}
+
+.random-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.random-content p {
+    opacity: 50%;
+}
+
+.square-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    border-color:#3882f6; 
+}
+
+
 /* Section 3 */
 #section3 {
     background-color: #e5e7eb;
