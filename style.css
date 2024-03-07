@@ -33,6 +33,10 @@ p {
 }
 
 /* Header formatting */
+#header {
+    padding: 40px 15vw;
+}
+
 p#header-link,
 p.hero-subtext{
     font-size: 18px;
